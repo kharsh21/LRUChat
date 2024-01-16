@@ -1,3 +1,3 @@
-# Chat-List-Using-LRU-Cache-WhatsApp-
+#LRUChat
 
-Implemented a chat application chat list using Least Recently Used Cache. An LRU cache is designed by combining two data structures: a Doubly Linked List and a Hash Map. It provides insertion, deletion, and searching in constant time. When a message from a new chat arrives, it will be inserted at the top of the chat list. If the message is from an existing conversation, then it will update the chat position to the top.
+Developed a chat application with a chat list using an LRU Cache mechanism, seamlessly managing insertion, deletion, and search operations for efficient handling of messages. The implementation leverages a combination of a Doubly Linked List and a Hash Map, ensuring constant-time performance. Incoming messages update the chat list, placing new conversations at the top and repositioning existing ones for optimal accessibility.
